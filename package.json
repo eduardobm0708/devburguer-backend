@@ -1,0 +1,31 @@
+{
+  "name": "devburguer-api-novo",
+  "version": "1.0.0",
+  "description": "devburguer api novo",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": {
+    "name": "Eduardo Bruno Marquezini",
+    "url": "https://github.com/eduardobm0708"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0",
+    "yup": "^1.7.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.3",
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3",
+    "sucrase": "^3.35.0"
+  }
+}
