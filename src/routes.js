@@ -4,8 +4,8 @@ import CategoryController from './app/controllers/CategoryController.js'
 import ProductController from './app/controllers/ProductController.js'
 import SessionController from './app/controllers/SessionController.js'
 import UserController from './app/controllers/UserController.js'
+import authMiddleware from './app/middlewares/auth.js'
 import multerConfig from './config/multer.js'
-import authMiddleware from './middlewares/auth.js'
 
 const routes = new Router()
 
