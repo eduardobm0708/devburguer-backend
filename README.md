@@ -133,3 +133,6 @@ Content-Type: application/json
 
 ---
 
+## 📝 Licença
+
+Este projeto está licenciado sob a licença ISC.
