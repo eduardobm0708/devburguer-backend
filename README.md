@@ -121,7 +121,7 @@ Content-Type: application/json
 }
 ```
 
-> Para mais exemplos, consulte a documentação dos endpoints ou utilize a collection do Postman (se houver).
+> Para mais exemplos, consulte a documentação dos endpoints ou utilize a collection do Postman.
 
 ---
 
