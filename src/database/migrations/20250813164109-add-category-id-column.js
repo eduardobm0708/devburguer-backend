@@ -5,7 +5,7 @@ export default {
 	async up(queryInterface, Sequelize) {
 		await queryInterface.addColumn(
 			'products',
-			'catergory_id',
+			'category_id',
 
 			{
 				type: Sequelize.INTEGER,

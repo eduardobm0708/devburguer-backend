@@ -26,7 +26,7 @@ const orderSchema = new mongoose.Schema(
 					type: Number,
 					required: true,
 				},
-				catergory: {
+				category: {
 					type: String,
 					required: true,
 				},

@@ -8,7 +8,7 @@ class ProductController {
 		const schema = Yup.object({
 			name: Yup.string().required(),
 			price: Yup.number().required(),
-			catergory_id: Yup.number().required(),
+			category_id: Yup.number().required(),
 			offer: Yup.boolean(),
 		})
 
@@ -25,12 +25,12 @@ class ProductController {
 		}
 
 		const { filename: path } = request.file
-		const { name, price, catergory_id, offer } = request.body
+		const { name, price, category_id, offer } = request.body
 
 		const product = await Product.create({
 			name,
 			price,
-			catergory_id,
+			category_id,
 			offer,
 			path,
 		})
@@ -42,7 +42,7 @@ class ProductController {
 		const schema = Yup.object({
 			name: Yup.string(),
 			price: Yup.number(),
-			catergory_id: Yup.number(),
+			category_id: Yup.number(),
 			offer: Yup.boolean(),
 		})
 
@@ -71,13 +71,13 @@ class ProductController {
 			path = request.file.filename
 		}
 
-		const { name, price, catergory_id, offer } = request.body
+		const { name, price, category_id, offer } = request.body
 
 		await Product.update(
 			{
 				name,
 				price,
-				catergory_id,
+				category_id,
 				offer,
 				path,
 			},

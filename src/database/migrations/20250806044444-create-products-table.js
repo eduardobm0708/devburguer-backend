@@ -18,7 +18,7 @@ export default {
 				type: Sequelize.INTEGER,
 				allowNull: false,
 			},
-			catergory: {
+			category: {
 				type: Sequelize.STRING,
 				allowNull: false,
 			},

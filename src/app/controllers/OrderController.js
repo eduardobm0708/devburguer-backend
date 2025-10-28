@@ -34,7 +34,7 @@ class OrderController {
 			include: [
 				{
 					model: category,
-					as: 'catergory',
+					as: 'category',
 					attributes: ['name'],
 				},
 			],
@@ -46,7 +46,7 @@ class OrderController {
 			const newProduct = {
 				id: product.id,
 				name: product.name,
-				catergory: product.catergory.name,
+				category: product.category.name,
 				price: product.price,
 				url: product.url,
 				quantity: products[productIndex].quantity,
