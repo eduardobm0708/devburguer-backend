@@ -30,6 +30,8 @@ Esta API oferece endpoints para autenticação de usuários, gerenciamento de pr
 - [Mongoose](https://mongoosejs.com/): ODM para MongoDB (incluído para flexibilidade, mesmo que não usado em todos os módulos).
 - [Yup](https://github.com/jquense/yup): Validação de objetos e schemas.
 - [Multer](https://github.com/expressjs/multer): Middleware para manipulação de multipart/form-data.
+- [Stripe](https://stripe.com/docs): Integração com Stripe para criação de PaymentIntents e processamento de pagamentos.
+ - Certifique-se de definir `STRIPE_SECRET_KEY` no arquivo `.env` para permitir que o servidor crie PaymentIntents.
 - [JWT (jsonwebtoken)](https://github.com/auth0/node-jsonwebtoken): Autenticação baseada em tokens.
 - [bcrypt](https://www.npmjs.com/package/bcrypt): Hash de senhas.
 - [uuid](https://www.npmjs.com/package/uuid): Geração de IDs únicos.
